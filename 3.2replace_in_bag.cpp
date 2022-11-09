@@ -204,7 +204,7 @@ int ArrayBag::getFrequencyOf(const ItemType& anEntry) const
         curIndex++;
     }
     //Return the frequency.
-    return frequency;
+    return frequency; 
 }
 //Method outputs true if anEntry is in the bag.
 

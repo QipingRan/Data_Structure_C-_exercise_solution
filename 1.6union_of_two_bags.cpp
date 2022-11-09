@@ -16,22 +16,22 @@ templateclass BagInterface
 {
 //Access specifier.
     public:
-    /*Pure virtual function declaration getCurrentSize().*/
-    virtual int getCurrentSize() const = 0;
-    //Pure virtual function declaration isEmpty().
-    virtual bool isEmpty() const = 0;
-    //Pure virtual function declaration add().
-    virtual bool add(const ItemType& newEntry) = 0;
-    //Pure virtual function declaration remove().
-    virtual bool remove(const ItemType& anEntry) = 0;
-    //Pure virtual function declaration clear().
-    virtual void clear() = 0;
-    /*Pure virtual function declaration getFrequencyOf().*/
-    virtual int getFrequencyOf(const ItemType& anEntry) const = 0;
-    //Pure virtual function declaration contains().
-    virtual bool contains(const ItemType& anEntry) const = 0;
-    //Pure virtual function declaration toVector().
-    virtual vector toVector() const = 0;
+        /*Pure virtual function declaration getCurrentSize().*/
+        virtual int getCurrentSize() const = 0;
+        //Pure virtual function declaration isEmpty().
+        virtual bool isEmpty() const = 0;
+        //Pure virtual function declaration add().
+        virtual bool add(const ItemType& newEntry) = 0;
+        //Pure virtual function declaration remove().
+        virtual bool remove(const ItemType& anEntry) = 0;
+        //Pure virtual function declaration clear().
+        virtual void clear() = 0;
+        /*Pure virtual function declaration getFrequencyOf().*/
+        virtual int getFrequencyOf(const ItemType& anEntry) const = 0;
+        //Pure virtual function declaration contains().
+        virtual bool contains(const ItemType& anEntry) const = 0;
+        //Pure virtual function declaration toVector().
+        virtual vector toVector() const = 0;
 };
 #endif
 // File Name: MyBag.h
